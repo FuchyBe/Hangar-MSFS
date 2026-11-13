@@ -41,10 +41,10 @@ Cliquez sur « Informations complémentaires », puis sur « Exécuter quand mê
   avec le texte déjà rempli.
 - Ou directement ici : onglet **Issues**, bouton **New issue**.
 
-Un compte GitHub gratuit est nécessaire. Rien n'est envoyé tant que vous ne l'avez pas validé sur la page GitHub.
+Un compte GitHub gratuit est nécessaire. Le texte est transmis à GitHub pour remplir la page ; rien n'est publié tant que vous ne l'avez pas validé.
 Le signalement est **public**.
 
-- Joindre le journal des erreurs est facultatif. Hangar masque déjà vos dossiers personnels et vos clés d'API.
+- Joindre le journal des erreurs est facultatif. Hangar masque vos dossiers personnels et les clés d'API qu'il reconnaît : relisez quand même l'aperçu avant d'envoyer.
 - Ne collez jamais une clé d'API ni une adresse e-mail.
 
 ### Vie privée
@@ -101,10 +101,10 @@ Click "More info", then "Run anyway".
   (Help › Suggest an idea…). A GitHub page opens with the text already filled in.
 - Or directly here: **Issues** tab, **New issue** button.
 
-A free GitHub account is required. Nothing is sent until you confirm it on the GitHub page.
+A free GitHub account is required. The text is passed to GitHub to fill in the page; nothing is published until you confirm it.
 Reports are **public**.
 
-- Attaching the error log is optional. Hangar already hides your personal folders and your API keys.
+- Attaching the error log is optional. Hangar hides your personal folders and the API keys it recognises: still read the preview before sending.
 - Never paste an API key or an e-mail address.
 
 ### Privacy
