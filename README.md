@@ -30,6 +30,8 @@ Hangar est un programme **portable** : rien à installer.
 
 Les versions sont publiées dans l'onglet **Releases** de ce dépôt. Si aucune version n'y figure encore, les versions publiques arriveront ici.
 
+À partir de la 0.8.4, Hangar peut se mettre à jour lui-même (Aide › Rechercher une mise à jour…).
+
 ### Premier lancement
 
 Windows peut afficher « Windows a protégé votre ordinateur », car le programme n'est pas encore signé.
@@ -50,11 +52,20 @@ Le signalement est **public**.
 ### Vie privée
 
 Hangar n'envoie rien tout seul : pas de télémétrie. Hangar ne se connecte à Internet que sur votre demande,
-pour récupérer un plan de vol SimBrief ou pour afficher une carte en ligne.
+pour récupérer un plan de vol SimBrief, pour afficher une carte en ligne ou pour vérifier une mise à jour.
+
+La vérification de mise à jour contacte github.com. Elle a lieu si vous cliquez sur **Aide › Rechercher une mise à
+jour…**, ou une fois par jour au plus si vous avez coché **Vérifier les mises à jour au démarrage** (décochée par
+défaut). Elle envoie une seule demande à GitHub, qui contient votre adresse Internet et le numéro de version de
+Hangar. Le téléchargement d'une nouvelle version ne commence que si vous cliquez sur **Mettre à jour et redémarrer**.
 
 ### Mises à jour
 
-La mise à jour depuis Hangar lui-même est en préparation.
+Hangar peut chercher et installer une nouvelle version. Le fichier téléchargé est vérifié (taille et empreinte
+SHA-256) avant d'être installé. Ce contrôle protège contre un fichier abîmé, pas contre un compte GitHub piraté.
+
+Les versions 0.8.3 et avant ne savent pas se mettre à jour : téléchargez une fois la nouvelle version à la main,
+depuis l'onglet **Releases**.
 
 ### Auteur et licence
 
@@ -90,6 +101,8 @@ Hangar is **portable**: nothing to install.
 
 Versions are published in the **Releases** tab of this repository. If no version is listed there yet, public versions will be posted here.
 
+From version 0.8.4, Hangar can update itself (Help › Check for updates…).
+
 ### First launch
 
 Windows may show "Windows protected your PC", because the program is not signed yet.
@@ -110,11 +123,19 @@ Reports are **public**.
 ### Privacy
 
 Hangar does not send anything on its own: no telemetry. Hangar only connects to the Internet when you ask it to,
-to fetch a SimBrief flight plan or to show an online map.
+to fetch a SimBrief flight plan, to show an online map or to check for an update.
+
+The update check contacts github.com. It happens when you click **Help › Check for updates…**, or at most once a
+day if you have ticked **Check for updates at startup** (unticked by default). It sends a single request to GitHub,
+which contains your Internet address and Hangar's version number. Downloading a new version only starts when you
+click **Update and restart**.
 
 ### Updates
 
-Updating from Hangar itself is being prepared.
+Hangar can check for and install a new version. The downloaded file is checked (size and SHA-256 fingerprint)
+before it is installed. This check protects against a damaged file, not against a hacked GitHub account.
+
+Versions 0.8.3 and earlier cannot update themselves: download the new version once by hand, from the **Releases** tab.
 
 ### Author and licence
 
