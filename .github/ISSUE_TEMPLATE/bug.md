@@ -1,6 +1,6 @@
 ---
 name: Signaler un problème / Report a bug
-about: Décrire un problème dans Hangar / Describe a problem in Hangar
+about: Décrire un problème dans 3AM / Describe a problem in 3AM
 title: "[Bug] "
 ---
 
@@ -16,9 +16,9 @@ Merci de prendre le temps de nous écrire. / Thank you for taking the time to wr
 
 ### Ce que vous attendiez / What you expected
 
-### Version de Hangar / Hangar version
+### Version de 3AM / 3AM version
 
-Menu **Aide › À propos de Hangar**, ou barre d'état en bas de la fenêtre. / **Help › About Hangar** menu, or the status bar at the bottom of the window.
+Menu **Aide › À propos de 3AM**, ou barre d'état en bas de la fenêtre. / **Help › About 3AM** menu, or the status bar at the bottom of the window.
 
 ### Simulateur / Simulator
 
