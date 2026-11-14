@@ -1,6 +1,6 @@
 ---
 name: Proposer une idée / Suggest an idea
-about: Proposer une amélioration pour Hangar / Suggest an improvement for Hangar
+about: Proposer une amélioration pour 3AM / Suggest an improvement for 3AM
 title: "[Idée] "
 ---
 
